@@ -1,0 +1,23 @@
+﻿@{
+    ViewBag.Title = "Ekle";
+    Layout = "~/Views/Shared/_LayoutPage1.cshtml";
+}
+
+<div class="form">
+    @using (Html.BeginForm())
+    {
+        <div class="row">
+            <label>Kategori Adı</label><br />
+            <input type="text" name="isim" class="forminput" />
+        </div>
+        <div class="row">
+            <label>Açıklama</label><br />
+            <textarea name="aciklama" class="forminput"></textarea>
+        </div>
+        <div class="row">
+            <button type="submit" class="gonderbutton">Kategori Ekle</button>
+           <a href="@Url.Action("Index","Kategori")">Kategori Listesine Dön</a>
+        </div>
+    }
+</div>
+

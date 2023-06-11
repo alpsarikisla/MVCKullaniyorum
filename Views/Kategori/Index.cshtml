@@ -1,0 +1,31 @@
+﻿@model IEnumerable<MVCKullaniyorum.Models.Categories>
+@using MVCKullaniyorum.Models
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_LayoutPage1.cshtml";
+}
+<div style="padding:20px 0px;">
+    <a href="@Url.Action("Ekle","Kategori")" class="eklebutton"> + Kategori Ekle</a>
+</div>
+<div>
+    <table class="tablo" cellpadding="0" cellspacing="0">
+        <tr>
+            <th>ID</th>
+            <th>Isim</th>
+            <th>Açıklama</th>
+            <th>Seçenekler</th>
+        </tr>
+        @foreach (Categories item in Model)
+        {
+            <tr>
+                <td>@item.CategoryID</td>
+                <td>@item.CategoryName</td>
+                <td>@item.Description</td>
+                <td>
+                </td>
+            </tr>
+        }
+    </table>
+</div>
+
+

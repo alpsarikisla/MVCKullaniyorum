@@ -1,0 +1,134 @@
+﻿*, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+}
+
+.tasiyici {
+    height: 920px;
+}
+
+.ustMenu {
+    min-height: 30px;
+    border-bottom: 1px solid silver;
+    -webkit-box-shadow: 0px 4px 6px -1px rgba(0,0,0,0.30);
+    -moz-box-shadow: 0px 4px 6px -1px rgba(0,0,0,0.30);
+    box-shadow: 0px 4px 6px -1px rgba(0,0,0,0.30);
+    padding: 10px;
+}
+
+    .ustMenu h2 {
+        font-family: 'Gajraj One', cursive;
+        font-weight: 100;
+    }
+
+.yanMenu {
+    border-right: 1px solid silver;
+    width: 200px;
+    height: 100%;
+    background-color: #f3f3f3;
+    float: left;
+}
+
+    .yanMenu ul {
+        list-style-type: none;
+    }
+
+        .yanMenu ul a {
+            text-decoration: none;
+        }
+
+        .yanMenu ul li {
+            padding: 5px;
+            padding-left: 15px;
+            color: #022942;
+            border-bottom: 1px solid silver;
+        }
+
+            .yanMenu ul li:hover {
+                background-color: #f9f9f9;
+            }
+
+.icerik {
+    float: left;
+    width: 1600px;
+    padding: 10px;
+}
+
+.eklebutton {
+    padding: 10px 25px;
+    background-color: #022942;
+    color: white;
+    border-radius: 3px;
+    font-weight: 900;
+    text-decoration:none;
+}
+    .eklebutton:hover{
+        background-color:#044067;
+    }
+    .tablo {
+        width: 100%;
+        border: 1px solid silver;
+    }
+
+    .tablo tr {
+        margin: 0px;
+        padding: 0px;
+    }
+
+        .tablo tr th {
+            margin: 0px;
+            padding: 10px;
+            background-color:#eeeeee;
+            color:#1b1b1b;
+            border-bottom:2px solid gray;
+        }
+
+        .tablo tr td {
+            margin: 0px;
+            padding: 5px;
+            border-bottom: 2px solid silver;
+        }
+.form{
+    border:1px solid silver;
+    padding:20px;
+    margin:10px;
+    border-radius:10px;
+}
+.form .row{
+
+}
+    .form .row .forminput {
+        border: 1px solid silver;
+        padding: 5px;
+        width:90%;
+        border-radius: 3px;
+        margin-top:7px;
+    }
+    .form .row .gonderbutton {
+        padding: 10px 25px;
+        background-color: #022942;
+        color: white;
+        border:none;
+        border-radius: 3px;
+        font-weight: 900;
+        text-decoration: none;
+    }
+        .form .row .gonderbutton:hover {
+            background-color: #044067;
+        }
+.alertBasarili
+{
+    padding:20px;
+    background-color:#a1fcec;
+    border-radius:10px;
+    color:#0d6b06;
+}
+.alertBasarisiz {
+    padding: 20px;
+    background-color: #febbbb;
+    border-radius: 10px;
+    color: #7c0808;
+}
